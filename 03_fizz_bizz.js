@@ -1,3 +1,29 @@
+function fizzBuzz(input) {
+  let box =''
+  
+  for(i=1;i<=input;i++){
+
+    if(i==1){
+      box +=i
+    }else if( i%3==0&i%5==0){  
+      box +=' FizzBuzz';      
+    }else if(i%3==0){
+      box +=' Fizz';
+    }else if(i%5==0){
+      box +=' Buzz';
+    }else{
+      box +=' '+i
+    }
+  }
+  return box.trim();
+}
+
+
+module.exports = {fizzBuzz};
+
+
+
+
 // 輸入會是一個數字的陣列，回傳一個新的陣列，保持原來的數字，除了以下幾種：
 // 3 的倍數要換成 Fizz
 // 5 的倍數要換成 Buzz
@@ -6,8 +32,10 @@
 // 例如   [1, 2, 3, 4, 5]
 // 會回傳 [1, 2, Fizz, 4, Buzz]
 
-function fizzBuzz(input) {
+// function fizzBuzz(input) {
   // 把你的解答寫在這裡。要記得 return 喔。
-}
+  
+// }
 
-module.exports = {fizzBuzz};
+// module.exports = {fizzBuzz};
+

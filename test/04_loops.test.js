@@ -1,8 +1,8 @@
-// 可以看看測試什麼，但是不可以改這張檔案喔。
+// �虾隞亦�讠�𧢲葫閰虫�暻潘�䔶��糓銝滚虾隞交㺿�坔撐瑼娍���𢛵��
 let {numbers, eachAddOne, onlyEven} = require('../04_loop.js')
 
 test('numbers', () => {
-  expect(numbers).toEqual([5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+  expect(numbers).toEqual([5, 7, 9, 11, 13, 15])
 })
 
 test('eachAddOne', () => {
