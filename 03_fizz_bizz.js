@@ -4,7 +4,7 @@ function fizzBuzz(input) {
   for(i=1;i<=input;i++){
 
     if(i==1){
-      box +=i
+      box +=i;
     }else if( i%3==0&i%5==0){  
       box +=' FizzBuzz';      
     }else if(i%3==0){
@@ -12,10 +12,11 @@ function fizzBuzz(input) {
     }else if(i%5==0){
       box +=' Buzz';
     }else{
-      box +=' '+i
+      box +=' '+i;
     }
   }
   return box.trim();
+
 }
 
 
