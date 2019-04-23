@@ -28,8 +28,8 @@ function onlyEven(list) {
       
     }
   }
-  list = number
-  return list
+  
+  return number
 }
 
 module.exports = {numbers, eachAddOne, onlyEven}
